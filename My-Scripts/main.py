@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score
 
 # dataset = pd.read_csv("heart_disease_uci_cleaned.csv")
 # simple scatter of the data
-dataset = pd.read_csv("../CSV-Files/AgeCholesterol.csv")
+dataset = pd.read_csv("CSV-Files/AgeCholesterol.csv")
 x = dataset.iloc[:, 0].values
 y = dataset.iloc[:, 1].values
 plt.ylabel("Age")
